@@ -1,0 +1,13 @@
+/*
+2. * nome: exemplo06.c
+3. * descrição: Declaração de variáveis ponto flutuante.
+4. * data: 08/04/2013
+5. */
+#include <stdio.h>
+int main()
+{
+    float km;
+    double cm;
+    long double mm;
+    return 0;
+}

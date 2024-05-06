@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+	// Declaração da variável e ponteiro
+	int ano, *pAno;
+
+	// Inicialização
+	ano = 2024;
+	pAno = &ano;
+
+	printf("O valor de 'ano' é: ");
+	printf("%d\n", *pAno); // O valor de 'ano' é 2024
+
+	printf("%d\n", *&ano); // 2004 também!
+
+	printf("%u\n", &ano); // Endereço de 'ano' algo como 0x07fff...
+
+	printf("%u\n", pAno); // O endereço de 'ano' também
+
+	printf("%u\n", &pAno); // Endereço de 'pAno' <> 'ano'
+
+	return 0;
+
+}
